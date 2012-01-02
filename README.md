@@ -2,7 +2,6 @@ sprite.less
 ===========
 
 LESS image sprite mixin for maintaining sprite definitions in a single location.
-Experimental, for my personal use...
 
 Import
 ------
@@ -12,7 +11,7 @@ Import
 Create your sprite
 ------------------
 
-Example is based on a 16 px wide, vertical sprite.
+Example is based on a 16 px wide, horizontal sprite.
 
 ### 2.1 By name
     .mySprite(@item) {

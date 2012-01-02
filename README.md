@@ -1,7 +1,7 @@
 sprite.less
 ===========
 
-LESS image sprite mixin for maintaining sprite definitions in a single location.
+LESS image sprite mixin for maintaining sprite definitions in a single location with pseudo-class support.
 
 Import
 ------

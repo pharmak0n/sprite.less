@@ -4,6 +4,7 @@
 
     background: url("@{image}") 0px 0px no-repeat;
     background-position: @offset 0;
+    &:link { background-position: @offset 0; }
     &:visited { background-position: @offset -@width; }
     &:hover { background-position: @offset -@width*2; }
     &:active { background-position: @offset -@width*3; }

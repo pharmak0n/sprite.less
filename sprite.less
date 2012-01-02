@@ -3,5 +3,8 @@
     @offset: ~`typeof(@{item}) == 'number' ? (@{item} - 1) * parseInt("-@{width}") + 'px' : (eval(@{json})[@{item}] - 1) * parseInt("-@{width}") + 'px'`;
 
     background: url("@{image}") 0px 0px no-repeat;
-    background-position: 0 @offset;
+    background-position: @offset 0;
+    &:hover { background-position: @offset -@width; }
+    &:active { background-position: @offset -@width*2; }
+    &:visited { background-position: @offset -@width*3; }
 }

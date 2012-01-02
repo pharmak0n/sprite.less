@@ -4,7 +4,8 @@
 
     background: url("@{image}") 0px 0px no-repeat;
     background-position: @offset 0;
-    &:hover { background-position: @offset -@width; }
-    &:active { background-position: @offset -@width*2; }
-    &:visited { background-position: @offset -@width*3; }
+    &:visited { background-position: @offset -@width; }
+    &:hover { background-position: @offset -@width*2; }
+    &:active { background-position: @offset -@width*3; }
+    &:focus { background-position: @offset -@width*4; }   
 }
